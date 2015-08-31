@@ -13,6 +13,38 @@
        "AWS_SECRET_ACCESS_KEY": {
          "description": "The secret part of your AWS access key.",
          "value": "Secret Access Key"
-       }
+       },
+	   "AUTH_KEY": {
+		   "description": "Salt for your app",
+		      "generator": "secret"
+			  },
+	   "SECURE_AUTH_KEY": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "LOGGED_IN_KEY": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "NONCE_KEY": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "AUTH_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "SECURE_AUTH_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "LOGGED_IN_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  },
+	   "NONCE_SALT": {		   
+		   "description": "Salt for your app",
+		    "generator": "secret"
+		  }
    }	   
 }
