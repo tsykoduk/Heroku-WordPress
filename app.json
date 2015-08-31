@@ -4,7 +4,7 @@
 	"repository": "https://github.com/tsykoduk/Heroku-WordPress",
 	"logo": "http://technomile.github.io/img/cms_buildpack_github.png",
 	"keywords": ["wordpress", "heroku", "php", "mysql", "apache", "apache2", "nginx"],
-	"addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"],
+	"addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter","papertrail"],
     "env": {
 		"AWS_ACCESS_KEY_ID": {
 			"description": "Your AWS Access key to grant this application access to a S3 bucket.",
