@@ -1,7 +1,7 @@
 {
 	"name": "CMS Buildpacks by TechnoMile",
 	"description": "Deploy your favorite CMS on Heroku using our WordPress buildpack.",
-	"repository": "https://github.com/technomile/Heroku-WordPress",
+	"repository": "https://github.com/tsykoduk/Heroku-WordPress",
 	"logo": "http://technomile.github.io/img/cms_buildpack_github.png",
 	"keywords": ["wordpress", "heroku", "php", "mysql", "apache", "apache2", "nginx"],
 	"addons": ["cleardb:ignite","newrelic:wayne","sendgrid:starter"],
