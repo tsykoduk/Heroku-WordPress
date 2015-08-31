@@ -22,6 +22,11 @@
 define( 'AWS_ACCESS_KEY_ID', $_ENV["AWS_ACCESS_KEY_ID"]);
 define( 'AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]);
 
+// Sendgrid settings - Read in the sendgrid auth from the config //
+
+Username: define('SENDGRID_USERNAME', $_ENV["SENDGRID_USERNAME"]);
+Password: define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]);
+
  
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["CLEARDB_DATABASE_URL"]); 
